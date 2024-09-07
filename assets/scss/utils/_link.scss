@@ -1,0 +1,29 @@
+.link-white {
+  &:hover {
+    color: $primary-40 !important;
+  }
+}
+
+.link-black {
+  &:hover {
+    color: $dark !important;
+  }
+}
+
+.hover-bg {
+  transition: background-color .3s ease;
+
+  &:hover {
+    background-color: $primary-10;
+  }
+
+  &-white {
+    &:hover {
+      background: $white;
+    }
+
+    &.active {
+      background: $white;
+    }
+  }
+}

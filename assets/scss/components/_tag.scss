@@ -1,0 +1,22 @@
+.tag {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 100px;
+
+  &-primary {
+    color: $primary;
+    background: $primary-10;
+  }
+
+  &-danger {
+    color: $danger;
+    background: $danger-10;
+  }
+
+  &-dark {
+    color: $dark;
+    background: $neutral-40;
+  }
+}

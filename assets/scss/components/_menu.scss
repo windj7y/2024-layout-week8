@@ -1,0 +1,18 @@
+.menu {
+  &-link {
+    font-weight: normal;
+    color: $dark;
+    padding: 12px 12px 12px 24px;
+    border-radius: 12px;
+
+    &:hover {
+      background: $primary;
+      color: $white;
+    }
+
+    &.active {
+      background: $primary;
+      color: $white;
+    }
+  }
+}

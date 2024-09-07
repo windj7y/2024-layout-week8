@@ -1,0 +1,7 @@
+@include media-breakpoint-up(lg) {
+  .shadow-lg- {
+    &primary {
+      box-shadow: 0px 2px 40px 0px rgba($primary, 0.1);
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.dropdown-menu {
+  width: 232px;
+  max-height: 600px;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #e1e1e1;
+    border-radius: 10px;
+  }
+}
+
+.dropdown-item {
+  border-radius: 12px;
+
+  &:hover {
+    & > .material-icons-outlined {
+      color: $white !important;
+    }
+  }
+
+  &.active {
+    & > .material-icons-outlined {
+      color: $white !important;
+    }
+  }
+}

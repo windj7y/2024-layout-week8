@@ -1,0 +1,23 @@
+.logo {
+  width: 200px;
+  height: 32px;
+  background: url(../images/logo.png) no-repeat;
+  background-size: cover;
+
+  @include picture-replace;
+}
+
+.dropdown-menu[data-bs-popper].position {
+  left: auto;
+  right: -150%;
+}
+
+.dropdown-menu[data-bs-popper].position-avatar {
+  left: auto;
+  right: -30%;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+}

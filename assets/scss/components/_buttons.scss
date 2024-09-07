@@ -1,0 +1,18 @@
+.btn-primary {
+  &:hover {
+    background: $primary-120;
+    border-color: $primary-120;
+  }
+}
+
+.btn-dark {
+  color: $dark;
+  background: $white;
+  border-color: $neutral-40;
+
+  &.active {
+    color: $white;
+    background: $primary;
+    border-color: $primary;
+  }
+}

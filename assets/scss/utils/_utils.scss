@@ -1,0 +1,29 @@
+.rounded-rtop-lbottom {
+  border-radius: 0;
+  
+  @include media-breakpoint-up(md) {
+    border-radius: 0 100px 0 80px;
+  }
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+
+.line {
+  position: relative;
+
+  &::after {
+    content: '';
+    width: 1px;
+    height: 16px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    background-color: $neutral-60;
+    line-height: 16px;
+    vertical-align: bottom;
+  }
+}
